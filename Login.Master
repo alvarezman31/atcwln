@@ -1,0 +1,66 @@
+﻿<%@ Master  Language="C#"   AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="AtcWlnWS.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="cabecera">
+            <div id="contenidoCabecera">
+                <div id="logotipo">
+                    <img src="/images/wlnNEW250.png" alt="Logo WLN"/>
+                </div>
+                <div id="titulo">
+                    <h1>AtcWln </h1>
+                    <h2>Cualquier Otro Valor</h2>
+                </div>
+
+               
+
+            </div>
+        </div>
+
+        <div id="bajo">
+             <div id="barraHorizontal">
+                    <ul>
+                        <li><a href="/Default.aspx">Home</a></li>
+                        <li><a href="/Clientes/AdministrarCliente.aspx">Clientes</a></li>
+                    </ul>
+                </div>
+            <div id="columnaIzq">
+                <asp:ContentPlaceHolder id="contenidoMenuContextual" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="columnaCentro">
+                <asp:ContentPlaceHolder id="contenidoPrincipal" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="columnaDer">
+                <div id="publicidad">
+                    <img src="images/clientes.png" alt="Publicidad"/>
+                </div>
+                <div id="redesSociales">
+                    <img src="images/areas.jpg" alt="Redes Sociales"/>
+
+                </div>
+
+            </div>
+            <div id="pie">
+                <span> Copyright ©2019 All rights reserved | by Worldl@n </span>
+                
+            </div>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>

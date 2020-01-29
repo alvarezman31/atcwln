@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SiteElectro.Master" AutoEventWireup="true" CodeBehind="Mantenedores.master.cs" Inherits="AtcWln.mantener.Mantenedores" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="menuContextual" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+</asp:Content>
